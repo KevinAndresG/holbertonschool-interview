@@ -18,11 +18,11 @@ def canUnlockAll(boxes):
     count = 0
     for i in boxes:
         if dict[count] == "false":
-            return ("false")
+            return (False)
         for h in i:
             if (h in dict.keys()):
                 dict[h] = "true"
                 for o in boxes[h]:
                     dict[o] = "true"
         count += 1
-    return ("true")
+    return (True)
