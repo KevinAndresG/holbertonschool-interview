@@ -25,5 +25,9 @@ def canUnlockAll(boxes):
                 for o in boxes[h]:
                     if (o in dict.keys()):
                         dict[o] = "true"
+                    else:
+                        continue
+            else:
+                continue
         count += 1
     return (True)
