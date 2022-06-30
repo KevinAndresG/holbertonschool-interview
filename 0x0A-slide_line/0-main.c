@@ -4,6 +4,7 @@
 #include "slide_line.h"
 #define LINE_SIZE 32
 
+
 /**
  * print_array - Prints out an array of integer, followed by a new line
  *
