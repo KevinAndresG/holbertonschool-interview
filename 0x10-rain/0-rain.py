@@ -38,5 +38,5 @@ def rain(walls):
                         n += 1
             else:
                 return 0
-            count += 1 
+            count += 1
     return water2
