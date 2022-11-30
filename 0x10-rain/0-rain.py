@@ -17,7 +17,7 @@ def rain(walls):
     while walls[0] == 0:
         walls.pop(0)
         count3 += 1
-        if count3 == size -1:
+        if count3 == size - 1:
             return 0
     while walls[len(walls) - 1] == 0:
         walls.pop()
