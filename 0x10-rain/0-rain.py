@@ -5,6 +5,8 @@
 
 
 def rain(walls):
+    if not walls:
+        return 0
     count = 0
     count2 = 0
     water = 0
