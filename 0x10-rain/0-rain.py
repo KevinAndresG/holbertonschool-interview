@@ -19,6 +19,8 @@ def rain(walls):
     for i in walls:
         count2 = count
         if i != 0:
+            if i < 0:
+                return 0
             noWater = i
         else:
             while walls[count2] == 0:
