@@ -15,10 +15,10 @@ def rain(walls):
     if not walls:
         return 0
     while walls[0] == 0:
-        walls.pop(0)
         count3 += 1
         if count3 == size:
             return 0
+        walls.pop(0)
     while walls[len(walls) - 1] == 0:
         walls.pop()
     if walls:
